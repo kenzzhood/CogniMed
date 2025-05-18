@@ -1,0 +1,29 @@
+[project]
+name = "cognimed-backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "argon2-cffi>=23.1.0",
+    "cloudinary>=1.44.0",
+    "faiss-cpu>=1.11.0",
+    "fastapi[standard]>=0.115.12",
+    "fpdf2>=2.8.3",
+    "google-generativeai>=0.8.5",
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.24",
+    "langchain-google-genai>=2.0.10",
+    "passlib>=1.7.4",
+    "pydantic-settings>=2.9.1",
+    "pyjwt[crypto]>=2.10.1",
+    "pypdf2>=3.0.1",
+    "sentence-transformers>=4.1.0",
+    "sqlalchemy>=2.0.41",
+    "ultralytics>=8.3.138",
+]
+
+[dependency-groups]
+dev = [
+    "black>=25.1.0",
+]
